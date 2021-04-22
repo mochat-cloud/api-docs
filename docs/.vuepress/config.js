@@ -137,6 +137,24 @@ module.exports = {
                 ]
             },
             {
+                title: '批量添加好友',
+                path: '/md/contactBatchAdd-index',
+                collapsable: false,
+                sidebarDepth: 3,
+                children: [
+                    '/md/contactBatchAdd-index',
+                    '/md/contactBatchAdd-allot',
+                    '/md/contactBatchAdd-remind',
+                    '/md/contactBatchAdd-dashboard',
+                    '/md/contactBatchAdd-destroy',
+                    '/md/contactBatchAdd-importDestroy',
+                    '/md/contactBatchAdd-importIndex',
+                    '/md/contactBatchAdd-importStore',
+                    '/md/contactBatchAdd-settingEdit',
+                    '/md/contactBatchAdd-settingUpdate',
+                ]
+            },
+            {
                 title: '素材库管理',
                 path: '/md/medium-destroy',
                 collapsable: false,
