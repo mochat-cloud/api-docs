@@ -244,6 +244,22 @@ module.exports = {
                 ]
             },
             {
+                title: '客户群发',
+                path: '/md/contactMessageBatchSend-index',
+                collapsable: false,
+                sidebarDepth: 3,
+                children: [
+                    '/md/contactMessageBatchSend-index',
+                    '/md/contactMessageBatchSend-store',
+                    '/md/contactMessageBatchSend-show',
+                    '/md/contactMessageBatchSend-destroy',
+                    '/md/contactMessageBatchSend-messageShow',
+                    '/md/contactMessageBatchSend-remind',
+                    '/md/contactMessageBatchSend-contactReceiveIndex',
+                    '/md/contactMessageBatchSend-employeeSendIndex',
+                ]
+            },
+            {
                 title: '客户群管理',
                 path: '/md/workRoom-batchUpdate',
                 collapsable: false,
@@ -279,6 +295,22 @@ module.exports = {
                     '/md/workRoomAutoPull-show',
                     '/md/workRoomAutoPull-store',
                     '/md/workRoomAutoPull-update',
+                ]
+            },
+            {
+                title: '客户群群发',
+                path: '/md/roomMessageBatchSend-index',
+                collapsable: false,
+                sidebarDepth: 3,
+                children: [
+                    '/md/roomMessageBatchSend-index',
+                    '/md/roomMessageBatchSend-store',
+                    '/md/roomMessageBatchSend-show',
+                    '/md/roomMessageBatchSend-destroy',
+                    '/md/roomMessageBatchSend-messageShow',
+                    '/md/roomMessageBatchSend-remind',
+                    '/md/roomMessageBatchSend-roomOwnerSendIndex',
+                    '/md/roomMessageBatchSend-roomReceiveIndex',
                 ]
             },
             {
